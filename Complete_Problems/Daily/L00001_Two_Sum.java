@@ -21,7 +21,7 @@ public class L00001_Two_Sum
                 int sum = nums[i] + nums[j];
                 if(sum==target)
                 {
-                    return new int[]{nums[i], nums[j]};
+                    return new int[]{nums[i], nums[j]}; //i,j for index
                 }
             }
         }  
